@@ -1,0 +1,6 @@
+import pygame
+pygame.init()  # iniciar o pygame
+pygame.mixer.music.load('ex021.mp3')  # carrega o arquivo
+pygame.mixer.music.play()  # inicia a música
+pygame.event.wait()
+input()
